@@ -1,0 +1,51 @@
+.TodoList {
+    padding: 0;
+}
+
+.TodoList li {
+    background: rgb(240, 242, 245);
+    padding: 15px 30px;
+    color: rgb(95, 36, 95);
+    font-weight: bold;
+    list-style: none;
+}
+
+.TodoList li span {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.TodoList li.on span {
+    color: rgb(199, 197, 197);
+}
+
+.TodoList li em {
+    cursor: pointer;
+}
+
+.TodoList li.on em {
+    color: rgb(199, 197, 197);
+    text-decoration: line-through rgb(159, 127, 231);
+}
+
+.TodoList button.delete {
+    float: right;
+    border: 4;
+    outline: none;
+    font-size: 13px;
+    background: lavender;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.TodoList button.edit {
+    float: right;
+    border: 4;
+    outline: none;
+    font-size: 13px;
+    background: lavender;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+}
